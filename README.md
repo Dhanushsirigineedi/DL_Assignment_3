@@ -10,18 +10,22 @@ This repository contains the implementation of a character-level sequence-to-seq
 DL_Assignment_3/
 │
 ├── WithAttention/
-│   ├── assignment_3_with_attention.py            # Main script (with attention)
+│   ├── assignment_3_with_attention.py            # Script with attention mechanism
 │   ├── Assignment_3_with_attention.ipynb         # Notebook version
-│   ├── readme.md                                 # Specific README for attention version
-│   ├── withAttention_correct_predictions.txt     # Sample correct outputs
-│   └── withoutAttention_incorrect_predictions.txt# Sample errors for comparison
+│   ├── readme.md                                 # Readme for attention model
 │
 ├── WithoutAttention/
-│   ├── assignment_3_without_attention.py         # Main script (no attention)
+│   ├── assignment_3_without_attention.py         # Script without attention mechanism
 │   ├── Assignment_3_without_attention.ipynb      # Notebook version
-│   ├── readme.md                                 # Specific README for non-attention version
-│   ├── withoutAttention_correct_predictions.txt  # Correct output samples
-│   └── withoutAttention_incorrect_predictions.txt# Incorrect predictions
+│   ├── readme.md                                 # Readme for non-attention model
+│
+├── predictions_attention/
+│   ├── withAttention_correct_predictions.txt     # Correct predictions from attention model
+│   └── withAttention_incorrect_predictions.txt   # Incorrect predictions from attention model
+│
+├── predictions_vanilla/
+│   ├── withoutAttention_correct_predictions.txt  # Correct predictions from vanilla model
+│   └── withoutAttention_incorrect_predictions.txt# Incorrect predictions from vanilla model
 │
 └── README.md                                     # Root README (this file)
 ```
